@@ -6,8 +6,8 @@ const sendEmail = async (to, subject, text, attachments = []) => {
         port: 587,
         secure: false,
         auth: {
-            user: 'yaroslav7v@gmail.com',
-            pass: 'pbgm bhia lcko yrpw'
+            user: 'dokee.pro@gmail.com',
+            pass: 'cgrr mobx igcg fkbh'
         },
         tls: {
             rejectUnauthorized: false
@@ -15,7 +15,7 @@ const sendEmail = async (to, subject, text, attachments = []) => {
     });
 
     const mailOptions = {
-        from: 'yaroslav7v@gmail.com',
+        from: 'dokee.pro@gmail.com',
         to,
         subject,
         text,
